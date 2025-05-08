@@ -14,6 +14,11 @@ public class DockerImplApplication {
 		return "this is created for docker implementation";
 	}
 
+	@GetMapping("/message")
+	public String message(){
+		return "ci cd pipelines configuration with github actions";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DockerImplApplication.class, args);
 	}
