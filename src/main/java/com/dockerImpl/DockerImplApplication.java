@@ -16,7 +16,7 @@ public class DockerImplApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "ci cd pipelines configuration with github actions";
+		return "ci cd pipelines configuration with github actions ";
 	}
 
 	public static void main(String[] args) {
