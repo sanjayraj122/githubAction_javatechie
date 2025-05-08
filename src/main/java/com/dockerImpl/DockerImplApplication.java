@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerImplApplication {
 
 	@GetMapping("/fetch")
-	public String getDetails(String str){
+	public String getDetails(){
 		return "this is created for docker implementation";
 	}
 
